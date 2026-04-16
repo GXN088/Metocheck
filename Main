@@ -1,0 +1,34 @@
+public class Main {
+    
+    // Метод для печати заголовка
+    public static void printHeader() {
+        System.out.println("=================");
+        System.out.println("Event Schedule");
+        System.out.println("=================");
+    }
+    
+    // Метод для печати информации о событии
+    public static void printEvent() {
+        System.out.println(">> Main Event <<");
+        System.out.println("Time: 7:00 PM");
+        System.out.println("Location: Hall A");
+    }
+    
+    // Метод для печати футера
+    public static void printFooter() {
+        System.out.println("=================");
+        System.out.println("Thank You!");
+        System.out.println("=================");
+    }
+    
+    public static void main(String[] args) {
+        printHeader();          // Печатаем заголовок
+        
+        // Печатаем событие 3 раза
+        printEvent();
+        printEvent();
+        printEvent();
+        
+        printFooter();          // Печатаем футер
+    }
+}
